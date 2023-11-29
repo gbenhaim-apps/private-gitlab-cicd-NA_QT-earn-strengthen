@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: private-gitlab-cicd
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/gbenhaim-apps/user1-tenant/private-gitlab-cicd/private-gitlab-cicd@sha256:6159224e93fd57c4e1861b41659c3b26be889378cc197612af8837952a887cb7
+        name: container-image
+        resources: {}
+status: {}
