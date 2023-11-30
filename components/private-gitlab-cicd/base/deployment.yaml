@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: private-gitlab-cicd
     spec:
       containers:
-      - image: quay.io/gbenhaim-apps/user1-tenant/private-gitlab-cicd/private-gitlab-cicd@sha256:6159224e93fd57c4e1861b41659c3b26be889378cc197612af8837952a887cb7
+      - image: quay.io/gbenhaim-apps/user1-tenant/private-gitlab-cicd/private-gitlab-cicd@sha256:15f3338a2ff72f13f938a2720f0ea7318bf3190f1931694c6ce3ba452323b4eb
         imagePullPolicy: Always
         name: container-image
         resources: {}
